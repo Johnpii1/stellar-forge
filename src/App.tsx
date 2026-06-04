@@ -1,9 +1,14 @@
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <main>
-      <h1>StellarForge</h1>
-      <p>Open-source collaboration hub for the Stellar ecosystem.</p>
-    </main>
+    <>
+      <Navbar />
+      <main id="home">
+        <h1>StellarForge</h1>
+        <p>Open-source collaboration hub for the Stellar ecosystem.</p>
+      </main>
+    </>
   );
 }
 
